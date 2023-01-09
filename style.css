@@ -1,0 +1,514 @@
+/* universal styling */
+
+*{
+margin: 0;
+padding: 0;
+}
+
+*{
+box-sizing: border-box;
+}
+
+*{
+font-family:"Typestar OCR Pro";
+}
+
+*:link{
+text-decoration: none;
+}
+
+html{
+background-color: lightgrey;
+}
+
+/* header styling */
+
+header{
+height: 64px;
+margin: 0;
+color: #fff;
+background-color: #000;
+position: fixed;
+width: 100%;
+z-index: 10;
+column-count: 2;
+}
+
+header h1{
+color: #fff;
+height: 50px;
+transform: translate(5px, 10px);
+position: relative;
+}
+
+h1 a:link{
+color: #fff;
+text-decoration:none;
+}
+
+h1 a:visited{
+color: #fff;
+text-decoration:none;
+}
+
+h1 a:hover{
+color: #fff;
+text-decoration:none;
+}
+
+h1 a:active{
+color: #fff;
+text-decoration:none;
+}
+
+.menu img{
+border: none;
+width: 40px;
+float: right;
+margin-right: 10px;
+margin-top: 20px;
+}
+
+.menu button{
+border: none;
+width: 40px;
+float: right;
+margin-right: 10px;
+margin-top: 0px;
+background-color: #000;
+}
+
+.menuOptions{
+display: none;
+position: absolute;
+right: 0px;
+color: #fff;
+background-color: #000;
+padding-bottom: 100%;
+}
+
+.menu:hover .menuOptions {
+display: block;
+}
+
+.menuOptions a{
+display: block;
+position: relative;
+color: #fff;
+background-color: #000;
+text-decoration: none;
+padding: 10px 50px;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 14px;
+}
+
+/* main content styling */
+
+main{
+position: relative;
+top: 64px;
+max-width: 1450px;
+margin-left: auto;
+margin-right: auto;
+}
+
+img{
+align: center;
+max-width: 100%;
+max-height: 400px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: 0px solid;
+filter: drop-shadow(5px 5px .5rem #000);
+}
+
+img:hover{
+opacity: .6;
+filter: drop-shadow(5px 5px 1rem #000);
+}
+
+.margin-one{
+display: inline-block;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+text-align: center;
+}
+
+.margin-one h3{
+max-width: 60%;
+text-align: left;
+}
+
+
+.portfolioOne a:link{
+color: #000;
+text-decoration:none;
+}
+
+.portfolioOne a:visited{
+color: #000;
+text-decoration:none;
+}
+
+.margin-two{
+display: inline-block;
+width: 100%;
+height:200px;
+margin-left: 0px;
+margin-right: 0px;
+text-align: center;
+}
+
+.margin-two h3{
+text-align: left;
+}
+
+.margin-one h3{
+font-size: 25px;
+}
+
+.margin-two h3{
+font-size: 25px;
+}
+
+li{
+display: inline-block;
+min-width: 300px;
+max-width: 800px;
+min-height: 200px;
+max-height: 800px;
+}
+
+/* Margin Three styles Project Pages */
+
+.margin-three{
+display: inline-block;
+position: static;
+min-width: 300px;
+max-width: 100%;
+min-height:200px;
+max-height:400px;
+margin-left: 20%;
+margin-right: 20%;
+text-align: center;
+}
+
+.margin-three img{
+text-align: center;
+}
+
+.margin-three img:hover{
+opacity: 1;
+filter: drop-shadow(5px 5px .5rem #000);
+flex-direction: column;
+}
+
+/* Margin Four styles Illustration Pages */
+
+.margin-four{
+display: inline-block;
+filter: drop-shadow(5px 5px .5rem #000);
+text-align: center;
+}
+
+.vert{
+min-width: 300px
+max-width: 600px;
+min-height: 300px;
+max-height: 600px
+}
+
+.horiz{
+min-width: 500px;
+}
+
+.square{
+min-width: 200px
+max-width: 500px;
+min-height: 200px;
+max-height: 500px
+}
+
+.margin-four img:hover{
+opacity: 1;
+filter: drop-shadow(5px 5px .5rem #000);
+}
+
+/* This Website Project PAge Styling */
+
+.thisWebsite{
+display: inline-block;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+/* contact/resume styling */
+
+.resume img{
+display: inline-block;
+min-width: 300px
+max-width: 900px;
+min-height: 600px;
+max-height: 1200px
+}
+
+.resume img:hover{
+opacity: 1;
+filter: drop-shadow(5px 5px .5rem #000);
+}
+
+/* About styling */
+.margin-five{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: space-around;
+}
+
+.about-image{
+display: flex;
+justify-content: center;
+z-index: 5;
+}
+
+.about-image img{
+min-width: 50px;
+max-width: 200px;
+margin-top: 20px;
+margin-bottom: 30px;
+filter: none;
+}
+
+.about-image img:hover{
+opacity: 1;
+filter: none;
+}
+
+.about-p{
+display: flex;
+justify-content: center;
+text-align: center;
+z-index: 5;
+}
+
+.about-p p{
+text-align: center;
+min-width: 300px;
+max-width: 600px;
+margin-bottom: 20px;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 1.5;
+}
+
+.about-p2{
+display: flex;
+justify-content: center;
+text-align: center;
+z-index: 5;
+}
+
+.about-p2 p{
+display: flex;
+justify-content: center;
+text-align: center;
+min-width: 300px;
+max-width: 600px;
+margin-bottom: 20px;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 1.5;
+}
+
+/* footer styling */
+
+footer{
+padding-left: 2rem;
+padding-right: 2rem;
+line-height:1.5;
+column-count: 2;
+column-gap: 50px;
+column-rule-width: 2px;
+column-rule-style: solid;
+column-rule-color: black;
+margin: auto;
+}
+
+.footMargin{
+margin-top: 10px;
+border-top: 2px solid;
+position: relative;
+top: 64px;
+}
+
+.firstFooter{
+min-width: 450px;
+max-width: 1450px;
+overflow: hidden;
+width: 100%;
+margin-top: 74px;
+}
+
+h3{
+font-size: 25px;
+}
+
+.footHead{
+font-size: 28px;
+min-width: 400px;
+margin-bottom: 15px;
+}
+
+.leftLink a{
+color: #000;
+}
+
+.leftLink a:hover{
+opacity: 0.6;
+}
+
+#socialMedia img{
+height: 25px;
+margin-top: 20px;
+border: none;
+filter: none;
+}
+
+#socialMedia li{
+display: inline;
+}
+
+button:hover{
+opacity: .6;
+}
+
+.buttons{
+display: none;
+max-width: 150px;
+height: 20%;
+margin-right: 50px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.buttons img{
+border: none;
+filter: none;
+}
+
+#playStore{
+max-width: 175px;
+margin-top: -5px;
+}
+
+div{
+color: #000;
+margin: 0px;
+font-size: 20px;
+}
+
+.left{
+break-after: column;
+}
+
+/* page directory footer */
+
+h3{
+color: #000;
+}
+
+.right h3:hover{
+opacity: 0.6;
+}
+
+h5{
+display: inline;
+width: 20%;
+margin-right: 0px;
+color: #000;
+}
+
+h5:hover{
+opacity: 0.6;
+cursor: pointer;
+}
+
+.illustration a+a::before{
+content:"|";
+margin-right: 5px;
+color: #000
+}
+
+.illustration{
+margin-bottom: 20px;
+}
+
+.four a+a::before{
+content:"|";
+margin-right: 5px;
+color: #000
+}
+
+.four{
+margin-bottom: 20px;
+}
+
+.graphic a+a::before{
+content:"|";
+margin-right: 5px;
+color: #000;
+}
+
+.graphic{
+margin-bottom: 20px;
+}
+
+.programming a+a::before{
+content:"|";
+margin-right: 5px;
+color: #000
+}
+
+.programmingProject{
+display:none;
+}
+
+/* bottom page footer styling */
+
+.footMarginTwo{
+margin: auto;
+min-width: 450px;
+max-width: 1500px;
+margin-top: 10px;
+border-top: 2px solid;
+position: relative;
+}
+
+.finalFoot{
+min-width: 450px;
+max-width: 1450px;
+margin-top: 10px;
+column-count:2
+column-rule-width: 2px;
+column-rule-style: solid;
+column-rule-color: transparent;
+}
+
+.finalFooterArt{
+width: 50%;
+text-align: center;
+column-count: 2;
+column-rule-width: 2px;
+column-rule-style: solid;
+column-rule-color: black;
+}
+
+.madeWith{
+width: 100%;
+text-align: right;
+}

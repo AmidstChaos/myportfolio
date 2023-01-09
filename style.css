@@ -10,7 +10,7 @@ box-sizing: border-box;
 }
 
 *{
-font-family:"Typestar OCR Pro";
+font-family:"Typestar OCR Pro", Monospace;
 }
 
 *:link{

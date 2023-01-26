@@ -120,12 +120,10 @@ max-height: 400px;
 margin-top: 10px;
 margin-bottom: 10px;
 border: 0px solid;
-filter: drop-shadow(5px 5px .5rem #000);
 }
 
 img:hover{
 opacity: .6;
-filter: drop-shadow(5px 5px 1rem #000);
 }
 
 .margin-one{
@@ -202,7 +200,6 @@ text-align: center;
 
 .margin-three img:hover{
 opacity: 1;
-filter: drop-shadow(5px 5px .5rem #000);
 flex-direction: column;
 }
 
@@ -210,7 +207,6 @@ flex-direction: column;
 
 .margin-four{
 display: inline-block;
-filter: drop-shadow(5px 5px .5rem #000);
 text-align: center;
 }
 
@@ -234,7 +230,6 @@ max-height: 500px
 
 .margin-four img:hover{
 opacity: 1;
-filter: drop-shadow(5px 5px .5rem #000);
 }
 
 /* This Website Project PAge Styling */
@@ -259,7 +254,6 @@ max-height: 1200px
 
 .resume img:hover{
 opacity: 1;
-filter: drop-shadow(5px 5px .5rem #000);
 }
 
 /* About styling */
@@ -281,12 +275,10 @@ min-width: 50px;
 max-width: 200px;
 margin-top: 20px;
 margin-bottom: 30px;
-filter: none;
 }
 
 .about-image img:hover{
 opacity: 1;
-filter: none;
 }
 
 .about-p{
@@ -376,7 +368,6 @@ opacity: 0.6;
 height: 25px;
 margin-top: 20px;
 border: none;
-filter: none;
 }
 
 #socialMedia li{

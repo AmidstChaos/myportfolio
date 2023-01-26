@@ -257,6 +257,22 @@ max-height: 1200px
 opacity: 1;
 }
 
+.resumeDownload{
+display: block;
+max-width: 20%;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+background-color: #fff;
+border: 2px solid;
+color: #000;
+}
+
+.resumeDownload:hover{
+opacity: .6;
+}
+
 /* About styling */
 .margin-five{
 display: flex;

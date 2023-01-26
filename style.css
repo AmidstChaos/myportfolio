@@ -185,21 +185,22 @@ max-height: 800px;
 .margin-three{
 display: inline-block;
 position: static;
-min-width: 300px;
-max-width: 100%;
-min-height:200px;
-max-height:400px;
-margin-left: 20%;
-margin-right: 20%;
 text-align: center;
 }
 
 .margin-three img{
+min-width: 300px;
+max-width: 100%;
+min-height:200px;
+max-height:600px;
+margin-left: auto;
+margin-right: auto;
 text-align: center;
 }
 
 .margin-three img:hover{
 opacity: 1;
+filter: drop-shadow(5px 5px .5rem #000);
 flex-direction: column;
 }
 

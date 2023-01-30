@@ -183,6 +183,7 @@ max-height: 800px;
 /* Margin Three styles Project Pages */
 
 .margin-three{
+opacity: 1;
 display: inline-block;
 position: static;
 text-align: center;
@@ -196,10 +197,11 @@ max-height:600px;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+opacity: 1;
 }
 
 .margin-three img:hover{
-opacity: none;
+opacity: 1;
 }
 
 /* Margin Four styles Illustration Pages */
